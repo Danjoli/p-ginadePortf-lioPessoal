@@ -6,7 +6,7 @@ function alternarTema(){
         document.getElementById('sobre').style.backgroundColor = 'black'
         document.getElementById('projetos').style.backgroundColor = 'black'
         document.getElementById('contato').style.backgroundColor = 'black'
-        document.querySelector('body').style.color = 'white'
+        document.querySelector('main').style.color = 'white'
 
         document.querySelector('section > ul').style.borderColor = 'white'
         document.querySelector('h3.borda1').style.borderColor = 'white'
@@ -20,7 +20,8 @@ function alternarTema(){
         document.getElementById('sobre').style.backgroundColor = 'white'
         document.getElementById('projetos').style.backgroundColor = 'white'
         document.getElementById('contato').style.backgroundColor = 'white'
-        document.querySelector('body').style.color = 'black'
+        document.querySelector('main').style.color = 'black'
+
         document.querySelector('section > ul').style.borderColor = 'black'
         document.querySelector('h3.borda1').style.borderColor = 'black'
         document.querySelector('h3.borda2').style.borderColor = 'black'
